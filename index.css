@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+body{
+    background-color: #e93b81;
+}
+
+.jumbotron{
+    background-color:#ffe5e2 ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url("images/travis-grossen--CaJIE1MiA4-unsplash.jpg");
+}
+.navbar{
+    background-color:#e93b81;
+    text-decoration: none;
+    color:whitesmoke;
+}
+.btn-default{
+    background-color: #f5abc9;
+    color:#e93b81
+}
+.btn-default:hover{
+    background-color: #ffe5e2;
+    color:green;
+}
+.empty-container{
+    height:400px;
+}
+.empty-container1{
+    height:150px;
+}
+.empty-container2{
+    height:100px;
+}
+
+.button{
+    width:10%;
+    height:50px;
+    border-radius: 25px;
+    background-color: #f5abc9;
+    color:#ffe5e2;
+    font-family: 'Dancing Script', cursive;
+    font-size:20px;
+    border-style: none;
+    box-shadow: gray;
+}
+h1{
+    color:#ffe5e2;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Limelight', cursive;
+}
+img{
+    height: 90px;
+}
+.text-600{
+    color:#f5abc9;
+}
+
+.bg-img{
+    background-image: url("images/travis-grossen--CaJIE1MiA4-unsplash.jpg");
+    background-size: cover;
+}
+a{
+    color:#ce2378;   
+}
+a:hover{
+    color:#f5abc9;
+    text-decoration: none;
+}
+.button:hover{
+    background-color:#e93b81;
+}
+.bg-footer{
+    background-color: #e93b81;
+}
+.btn-primary{
+    border-style: none;
+}
+.hove li a:hover{
+    color:#e93b81;
+
+}
+.container{
+    height: 100%;
+    align-content: center;
+    font-family: 'Numans', sans-serif;
+    width:100%;
+    }
+.card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    font-family: 'Numans', sans-serif;
+    background-color: rgba(0,0,0,0.5) !important;
+    }
+    
+.social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #e93b81;
+    }
+    
+.social_icon span:hover{
+    color: #f5abc9;
+    cursor: pointer;
+    }
+    
+.card-header h3{
+    color: white;
+    }
+    
+.social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    }
+    
+.input-group-prepend span{
+    width: 50px;
+    background-color: #e93b81;
+    color: black;
+    border:0 !important;
+    }
+    
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+    
+.remember{
+    color: white;
+    }
+    
+.remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+    
+.login_btn{
+    color: #f5abc9;
+    background-color: #e93b81;
+    width: 100px;
+    }
+    
+.login_btn:hover{
+    color: #e93b81;
+    background-color: #f5abc9;
+    }
+    
+.links{
+    color: white;
+    }
+    
+.links a{
+    margin-left: 4px;
+    }
+    .bg-form{
+        background-color: rgba(0,0,0,0.5);
+    }
+    .form-control:focus {
+        box-shadow: none;
+        border-color: #e93b81;
+    }
+    
+    .profile-button {
+        background: #e93b81;
+        box-shadow: none;
+        border: none
+    }
+    
+    .profile-button:hover {
+        background: #f5abc9;
+        color:#e93b81;
+    }
+    
+    .profile-button:focus {
+        background: #e93b81;
+        box-shadow: none
+    }
+    
+    .profile-button:active {
+        background: #e93b81;
+        box-shadow: none
+    }
+    
+    .back:hover {
+        color: #e93b81;
+        cursor: pointer
+    }
+    
+    .labels {
+        font-size: 15px;
+        color: #ffe5e2;
+    }
+    .profileimage{
+        height:40vh;
+        width:200px;
+    }
+    .profile_button{
+        background-color: #e93b81;
+        color:#ffe5e2;
+        width:200px;
+        border:none;
+        border-radius: 15px;
+    }
+    .profile_button:hover{
+        background-color: #f5abc9;
+        color: #e93b81;
+    }
+    .header-label{
+        color:#e93b81;
+    }
+@media(min-width:320px) and (max-width:570px){
+    .jumbotron{
+        background-image: url("images/neonbrand-n2VvngfbXtU-unsplash.jpg");
+    }
+    .button{
+        width:30%;
+    }
+    .nav-brand img{
+        width:300px;
+        float:left;
+    }
+}
+
+
